@@ -1,14 +1,14 @@
-# Introdução ao Microsoft Azure (Resumos)
+# ☁️ Introdução ao Microsoft Azure (Resumos)
 
 Abaixo um resumo sobre a introdução aos conceitos fundamentais da plataforma de nuvem Microsoft Azure, abordando alguns de seus principais serviços, os tipos de serviços em nuvem e os modelos de despesas. Ideal para iniciantes que buscam entender como a computação em nuvem pode otimizar operações e reduzir custos.
 
-## Resumo do Conteúdo do Curso Introdução à Computação em Nuvem
+## 📚 Resumo do Conteúdo do Curso Introdução à Computação em Nuvem
 
-### Modelo Baseado em Consumo
+### 💳 Modelo Baseado em Consumo
 
 O Azure opera sob um modelo de pagamento por consumo, onde os usuários pagam apenas pelos recursos que realmente utilizam, tornando possível uma previsão de custos mais precisa e evitando gastos excessivos.
 
-### Serviços do Azure
+### 🔧 Serviços do Azure
 
 O curso apresentou alguns dos serviços mais utilizados do Azure, incluindo:
 
@@ -18,7 +18,7 @@ O curso apresentou alguns dos serviços mais utilizados do Azure, incluindo:
 - **Rede**: Ferramentas para conectar, proteger e otimizar redes na nuvem.
 - **Segurança**: Recursos de segurança integrados para proteger dados e conformidade.
 
-### Modelos de Serviço em Nuvem
+### 🔨 Modelos de Serviço em Nuvem
 
 O curso abordou os principais modelos de serviço em nuvem:
 
@@ -28,7 +28,7 @@ O curso abordou os principais modelos de serviço em nuvem:
 
 - **Nuvem Híbrida**: Combina elementos de nuvens privadas e públicas, permitindo que as organizações executem aplicativos no ambiente mais adequado, oferecendo flexibilidade e controle sobre segurança e conformidade.
 
-### Modelos de Custo: CapEx e OpEx
+### 💰 Modelos de Custo: CapEx e OpEx
 
 - **CapEx (Despesas de Capital)**: Investimentos iniciais em infraestrutura física, cujos valores se depreciam com o tempo. Indicado para empresas que preferem controlar seus próprios recursos.
 
@@ -36,40 +36,39 @@ O curso abordou os principais modelos de serviço em nuvem:
 
 ---
 
-## Resumo do Conteúdo do Curso Benefícios da Nuvem: Escalabilidade e Elasticidade
+## 🌐 Resumo do Conteúdo do Curso Benefícios da Nuvem: Escalabilidade e Elasticidade
 
 A computação em nuvem oferece diversos benefícios para empresas e desenvolvedores ao permitir a criação de sistemas flexíveis, seguros e eficientes. Abaixo estão alguns dos principais aspectos que contribuem para esses benefícios.
 
-### Disponibilidade
+### 🕒 Disponibilidade
 A nuvem fornece alta disponibilidade, garantindo que os sistemas estejam acessíveis de forma contínua, mesmo em caso de falhas. Isso é possível graças a data centers redundantes e recursos de failover, que mantêm o sistema ativo em qualquer cenário. 
 
 Os contratos de serviços em nuvem normalmente incluem um **Acordo de Nível de Serviço (SLA)**, que define o tempo mínimo de disponibilidade garantido pelo provedor. Este acordo assegura que o serviço manterá uma alta taxa de funcionamento e, caso o SLA não seja cumprido, a empresa pode ser compensada conforme estipulado no contrato.
 
-### Escalabilidade
+### 📈 Escalabilidade
 A escalabilidade permite aumentar ou reduzir os recursos conforme a necessidade do sistema cresce, seja verticalmente (adicionando capacidade ao mesmo servidor) ou horizontalmente (adicionando mais servidores). Isso é essencial para acomodar um número variável de usuários e cargas de trabalho sem comprometer o desempenho.
 
-### Elasticidade
+### 🔄 Elasticidade
 A elasticidade refere-se à capacidade da nuvem de ajustar automaticamente os recursos conforme a demanda aumenta ou diminui, permitindo um uso mais eficiente e otimizado dos recursos e custos.
 
-### Confiabilidade
+### 🔒 Confiabilidade
 A nuvem oferece alta confiabilidade ao armazenar dados e aplicações com redundância, garantindo que o sistema funcione corretamente mesmo em caso de falhas. Essa confiabilidade reduz o tempo de inatividade e melhora a experiência do usuário final.
 
-### Previsibilidade
+### 📊 Previsibilidade
 Com a nuvem, empresas têm previsibilidade de custos e desempenho. O modelo de pagamento por uso permite um controle mais preciso dos gastos, enquanto o desempenho previsível garante que o sistema opere conforme as necessidades do negócio.
 
-### Segurança
+### 🔐 Segurança
 A segurança na nuvem é garantida por um modelo de responsabilidade compartilhada, onde tanto o provedor quanto o cliente têm responsabilidades específicas. O provedor de nuvem é responsável pela segurança física e infraestrutura de hardware, enquanto o cliente é responsável pelas configurações de segurança dos dados e das aplicações que utiliza. Cabe ao cliente ou técnico configurar permissões, criptografia e backups adequadamente, além de seguir as normas legais e regulatórias para proteger dados sensíveis.
 
-### Governança
+### 🛡️ Governança
 A governança é facilitada com ferramentas de monitoramento, controle de acesso e políticas automatizadas. Isso permite que as empresas mantenham o controle sobre quem acessa os recursos, como eles são usados e que normas devem ser seguidas.
 
-### Gerenciabilidade
+### ⚙️ Gerenciabilidade
 A nuvem oferece uma gerenciabilidade simplificada com ferramentas de automação e monitoramento em tempo real. Isso permite que as equipes de TI administrem a infraestrutura de forma centralizada, gerenciando configurações, atualizações e recursos com facilidade.
 
-### SLA (Acordo de Nível de Serviço)
+### 📄 SLA (Acordo de Nível de Serviço)
 O **Acordo de Nível de Serviço (SLA)** especifica o tempo mínimo de disponibilidade garantido pelo provedor de nuvem, influenciando diretamente os custos. Quando uma aplicação precisa de alta disponibilidade (como sistemas de pagamento), é necessário contratar um SLA mais elevado, o que implica em custos maiores mas garante um funcionamento mais contínuo e confiável. Para aplicações com menor criticidade, como sistemas de teste, pode-se optar por SLAs com menor disponibilidade e custos reduzidos.
 
 **Exemplo**: Um serviço financeiro que processa transações 24/7 precisará de um SLA de 99.99% para garantir disponibilidade máxima. Já um ambiente de desenvolvimento pode ter um SLA de 95%, reduzindo custos.
 
 Esses benefícios fazem da nuvem uma escolha cada vez mais vantajosa para empresas que buscam flexibilidade, segurança e otimização de custos para suas operações.
-
