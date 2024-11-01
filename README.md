@@ -72,3 +72,39 @@ O **Acordo de Nível de Serviço (SLA)** especifica o tempo mínimo de disponibi
 **Exemplo**: Um serviço financeiro que processa transações 24/7 precisará de um SLA de 99.99% para garantir disponibilidade máxima. Já um ambiente de desenvolvimento pode ter um SLA de 95%, reduzindo custos.
 
 Esses benefícios fazem da nuvem uma escolha cada vez mais vantajosa para empresas que buscam flexibilidade, segurança e otimização de custos para suas operações.
+
+---
+
+## 🌥️ Resumo do Conteúdo do Curso Tipos de Serviço na Nuvem
+
+Existem diferentes tipos de serviços na nuvem, cada um com um nível específico de controle, flexibilidade e responsabilidade. Estes modelos permitem que as empresas escolham o tipo de serviço mais adequado às suas necessidades e orçamento.
+
+### 🖥️ IaaS (Infrastructure as a Service)
+
+**Infraestrutura como Serviço** oferece recursos de infraestrutura básica, como máquinas virtuais, armazenamento e redes, permitindo que as empresas gerenciem seu próprio sistema operacional e aplicações.
+
+- **Exemplo**: Usar o **Microsoft Azure Virtual Machines** para configurar e gerenciar máquinas virtuais com diferentes sistemas operacionais, sem a necessidade de adquirir ou manter hardware físico.
+
+### 🚀 PaaS (Platform as a Service)
+
+**Plataforma como Serviço** fornece uma plataforma completa para desenvolver, gerenciar e hospedar aplicativos. Este modelo permite que os desenvolvedores se concentrem no código e na lógica do aplicativo, sem se preocupar com a infraestrutura subjacente.
+
+- **Exemplo**: O **Azure App Service** permite que você implemente e escale aplicativos web e APIs sem a necessidade de configurar o servidor e as redes, oferecendo ferramentas integradas de monitoramento e escalabilidade.
+
+### 🌐 SaaS (Software as a Service)
+
+**Software como Serviço** entrega aplicativos prontos para uso diretamente para o usuário final, com todo o gerenciamento de infraestrutura, armazenamento e dados sendo responsabilidade do provedor de nuvem. Os usuários acessam o software através da Internet, geralmente por meio de uma assinatura.
+
+- **Exemplo**: O **Microsoft 365** (antigo Office 365) é uma suíte de produtividade que inclui Word, Excel, PowerPoint, entre outros. Ele está disponível na nuvem e acessível de qualquer dispositivo, sem necessidade de instalação local.
+
+### 🔐 Modelo de Responsabilidade Compartilhada
+
+No modelo de responsabilidade compartilhada, tanto o provedor de nuvem quanto o cliente têm responsabilidades de segurança distintas:
+
+- O **provedor de nuvem** é responsável por proteger a infraestrutura física, os serviços e a rede subjacente.
+- O **cliente** é responsável pela segurança de seus dados, aplicativos e configurações, além de controlar o acesso e a configuração dos serviços que utiliza.
+
+Para mais informações sobre responsabilidade compartilhada, consulte a [documentação oficial da Microsoft](https://learn.microsoft.com/training/modules/describe-cloud-service-types/1-introduction).
+
+Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, permitindo que as empresas escolham a abordagem de nuvem que melhor se adapta aos seus objetivos e necessidades.
+
