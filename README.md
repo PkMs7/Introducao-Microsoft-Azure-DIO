@@ -108,3 +108,68 @@ Para mais informações sobre responsabilidade compartilhada, consulte a [docume
 
 Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, permitindo que as empresas escolham a abordagem de nuvem que melhor se adapta aos seus objetivos e necessidades.
 
+---
+
+# ☁️ Resumo do Curso: Componentes de Arquitetura do Azure
+
+## 🌍 Regiões Globais em Cloud
+
+- 🧭 **Criação de recursos em regiões estratégicas:**  
+  Permite criar recursos na região mais próxima do cliente final para melhorar a performance.  
+  _Exemplo: Uma empresa com sede no Brasil e operação na Europa pode criar recursos em West Europe para atender usuários locais._
+
+- 💰 **Atenção aos custos por região:**  
+  Preços variam entre regiões.  
+  _Exemplo: Uma VM em "East US" pode ter custo diferente da mesma VM em "Brazil South"._
+
+- 🏙️ **Zonas de Disponibilidade:**  
+  São datacenters separados fisicamente dentro de uma mesma região para garantir alta disponibilidade.  
+  _Exemplo: Criar VMs replicadas em diferentes zonas de "Brazil South"._
+
+- 🌐 **Backbone global da Microsoft:**  
+  Infraestrutura própria que conecta regiões e garante desempenho e segurança.
+
+- 🔒 **Verificação de restrições legais:**  
+  Algumas legislações, como a LGPD, proíbem que dados de cidadãos saiam do país.  
+  _Exemplo: Aplicações com dados sensíveis devem ser hospedadas em regiões do Brasil._
+
+- 📍 **Pares de Regiões:**  
+  Azure emparelha regiões com no mínimo 300 milhas de separação para fins de replicação e recuperação.  
+  _Exemplo: "Brazil South" pode ter um par de recuperação em outra região._
+
+- 🔁 **Replicação automática:**  
+  Alguns serviços replicam dados automaticamente para uma região secundária.  
+  _Exemplo: Azure Storage com geo-redundância._
+
+- 🏛️ **Regiões Soberanas:**  
+  Regiões exclusivas para uso governamental, com instâncias isoladas.  
+  _Exemplo: A Microsoft opera na China via a empresa 21Vianet._
+
+## 📦 Grupos de Recursos no Azure
+
+- 🧱 **Agrupamento de recursos relacionados:**  
+  VMs, storages, bancos de dados e redes podem ser agrupados em um mesmo grupo de recurso.  
+  _Exemplo: Todos os recursos de um sistema de RH podem estar no grupo "Recursos-RH"._
+
+- 🗂️ **Organização por contexto:**  
+  Facilita o controle por ambiente, aplicação ou projeto.  
+  _Exemplo: Criar um grupo de recurso separado para "Homologação" e outro para "Produção"._
+
+- ✏️ **Nomes de grupos não são editáveis:**  
+  Uma vez criado, o nome do grupo não pode ser alterado.  
+  _Exemplo: Criou como "producao2024", não poderá renomear para "producao-main" depois._
+
+- 🔄 **Movimentação de recursos entre grupos é possível.**
+
+## 🧾 Assinaturas e Grupos de Gerenciamento
+
+- 👥 **Várias assinaturas por conta:**  
+  Uma conta pode possuir múltiplas assinaturas para dividir projetos, departamentos ou clientes.  
+  _Exemplo: Uma empresa pode ter uma assinatura para o setor de TI e outra para o setor Financeiro._
+
+- 📊 **Otimização de custos:**  
+  Permite separar cobranças e analisar gastos por assinatura.
+
+- 🏷️ **Grupos de gerenciamento:**  
+  Aplicam políticas, permissões e limites em diversas assinaturas ao mesmo tempo.  
+  _Exemplo: Criar um grupo de gerenciamento para aplicar uma política de segurança em todas as assinaturas de um departamento._
