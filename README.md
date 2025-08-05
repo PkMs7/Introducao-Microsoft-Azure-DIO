@@ -110,9 +110,9 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
 
 ---
 
-# ☁️ Resumo do Curso: Componentes de Arquitetura do Azure
+## ☁️ Resumo do Curso: Componentes de Arquitetura do Azure
 
-## 🌍 Regiões Globais em Cloud
+### 🌍 Regiões Globais em Cloud
 
 - 🧭 **Criação de recursos em regiões estratégicas:**  
   Permite criar recursos na região mais próxima do cliente final para melhorar a performance.  
@@ -145,7 +145,7 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
   Regiões exclusivas para uso governamental, com instâncias isoladas.  
   _Exemplo: A Microsoft opera na China via a empresa 21Vianet._
 
-## 📦 Grupos de Recursos no Azure
+### 📦 Grupos de Recursos no Azure
 
 - 🧱 **Agrupamento de recursos relacionados:**  
   VMs, storages, bancos de dados e redes podem ser agrupados em um mesmo grupo de recurso.  
@@ -161,7 +161,7 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
 
 - 🔄 **Movimentação de recursos entre grupos é possível.**
 
-## 🧾 Assinaturas e Grupos de Gerenciamento
+### 🧾 Assinaturas e Grupos de Gerenciamento
 
 - 👥 **Várias assinaturas por conta:**  
   Uma conta pode possuir múltiplas assinaturas para dividir projetos, departamentos ou clientes.  
@@ -173,3 +173,67 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
 - 🏷️ **Grupos de gerenciamento:**  
   Aplicam políticas, permissões e limites em diversas assinaturas ao mesmo tempo.  
   _Exemplo: Criar um grupo de gerenciamento para aplicar uma política de segurança em todas as assinaturas de um departamento._
+
+---
+
+## 🖥️ Resumo do Curso: Computação e Rede na Azure
+
+### ⚙️ Serviços de Computação
+
+- 🧠 **Recursos sob demanda:**  
+  Oferece CPU, memória, disco, rede e sistema operacional conforme necessidade do usuário.  
+  _Exemplo: Criar uma VM com Windows Server para testes de software._
+
+- 🖥️ **Máquinas Virtuais (VMs):**  
+  Emulações de computadores físicos com total controle do SO. Modelo de responsabilidade compartilhada (IaaS).  
+  _Exemplo: Migrar um servidor legado para o Azure com modelo lift-and-shift._
+
+- 📈 **Conjuntos de Dimensionamento:**  
+  Permitem escalar VMs automaticamente com base na demanda, com balanceamento de carga incluso.  
+  _Exemplo: Aumentar automaticamente o número de VMs durante uma campanha de marketing._
+
+- 🛡️ **Conjuntos de Disponibilidade:**  
+  Dividem as VMs em domínios de falha (vertical) e de atualização (horizontal), garantindo resiliência.  
+  _Exemplo: Distribuir três VMs entre racks distintos e horários diferentes de atualização._
+
+- 💻 **Área de Trabalho Virtual do Azure (AVD):**  
+  Virtualização de desktops e aplicativos baseada em nuvem.  
+  _Exemplo: Fornecer acesso remoto a colaboradores sem comprar novos computadores._
+
+### 📦 Serviços de Contêineres
+
+- 📦 **Contêineres no Azure:**  
+  Executam aplicativos de forma leve, sem a sobrecarga de um SO completo. Suporte a Docker e Kubernetes.  
+  _Exemplo: Subir uma API em um contêiner com tempo de resposta otimizado._
+
+- 🚢 **Kubernetes e Orquestração:**  
+  Gerencia e automatiza a implantação de contêineres em escala.  
+  _Exemplo: Orquestrar múltiplas instâncias de microserviços para balancear carga._
+
+### ⚡ Computação Serverless
+
+- ⚡ **Azure Functions:**  
+  Executa código sob demanda com base em eventos, sem necessidade de provisionar infraestrutura.  
+  _Exemplo: Criar uma função que processa uploads em um blob storage._
+
+- 🌐 **Serviços de Aplicativos (App Services):**  
+  PaaS gerenciado para criar e escalar aplicações web e APIs com suporte a várias linguagens.  
+  _Exemplo: Hospedar uma API REST em Node.js com escalabilidade automática._
+
+### 🌐 Rede no Azure
+
+- 🌐 **Rede Virtual (VNet):**  
+  Conecta recursos do Azure entre si, com a internet e com redes locais.  
+  _Exemplo: Criar uma VNet com sub-redes separadas para banco de dados e aplicação._
+
+- 🔐 **VPN Gateway:**  
+  Estabelece comunicação criptografada entre uma rede local e a rede do Azure via internet.  
+  _Exemplo: Conectar a infraestrutura da empresa ao Azure com segurança._
+
+- ⚡ **ExpressRoute:**  
+  Conexão de alta velocidade e privada entre o ambiente local e a nuvem, sem passar pela internet pública.  
+  _Exemplo: Usar ExpressRoute para replicação de banco de dados com latência mínima._
+
+- 🧭 **DNS do Azure:**  
+  Gerencia nomes de domínio com suporte a RBAC (controle de acesso baseado em função) e monitoramento.  
+  _Exemplo: Usar Azure DNS para gerenciar zonas DNS de aplicações web corporativas._
