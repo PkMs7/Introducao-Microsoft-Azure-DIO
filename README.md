@@ -237,3 +237,15 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
 - 🧭 **DNS do Azure:**  
   Gerencia nomes de domínio com suporte a RBAC (controle de acesso baseado em função) e monitoramento.  
   _Exemplo: Usar Azure DNS para gerenciar zonas DNS de aplicações web corporativas._
+
+- ✏️ **Documentação Microsoft sobre o laboratório de Computação e Rede:**
+
+  [VM Linux pelo Portal](https://learn.microsoft.com/pt-br/azure/virtual-machines/linux/quick-create-portal?tabs=ubuntu)
+  
+  [VM Windows pelo Portal](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/quick-create-portal)
+
+  [Área de Trabalho Virtual do Azure](https://learn.microsoft.com/pt-br/azure/virtual-desktop/)
+
+  [Aplicativo de Funções](https://learn.microsoft.com/pt-br/azure/azure-functions/functions-create-function-app-portal?tabs=core-tools&pivots=flex-consumption-plan)
+
+  [Criação de Rede pelo Portal](https://learn.microsoft.com/pt-br/azure/virtual-network/quickstart-create-virtual-network?tabs=portal)
