@@ -249,3 +249,94 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
   [Aplicativo de Funções](https://learn.microsoft.com/pt-br/azure/azure-functions/functions-create-function-app-portal?tabs=core-tools&pivots=flex-consumption-plan)
 
   [Criação de Rede pelo Portal](https://learn.microsoft.com/pt-br/azure/virtual-network/quickstart-create-virtual-network?tabs=portal)
+
+---
+
+## 🗄️ Resumo do Curso: Armazenamento no Azure
+
+### 🧾 Conceitos Gerais
+
+- 🆔 **Nome único da conta de armazenamento:**  
+  Deve ser **globalmente exclusivo**, com 3 a 24 caracteres.  
+  _Exemplo: uma conta chamada `minhaempresa123` será acessada via `minhaempresa123.blob.core.windows.net`._
+
+### 🧬 Tipos de Redundância
+
+- 📍 **LRS (Local Redundant Storage):**  
+  Replicação dentro de um único datacenter.  
+  _Mais econômica, menor tolerância a falhas físicas._
+
+- 🏢 **ZRS (Zone Redundant Storage):**  
+  Replicação em zonas diferentes dentro da mesma região.  
+  _Maior disponibilidade e resiliência regional._
+
+- 🌎 **GRS (Geo-Redundant Storage):**  
+  Replicação em regiões geograficamente distintas.  
+  _Alta durabilidade com recuperação de desastre._
+
+- 🛰️ **GZRS (Geo-Zone Redundant Storage):**  
+  Combina redundância geográfica e de zonas.  
+  _Máximo nível de durabilidade e disponibilidade._
+
+### 📦 Serviços de Armazenamento
+
+- 🧊 **Blob:**  
+  Armazenamento massivo de dados não estruturados (texto, imagens, vídeos).  
+  _Exemplo: armazenar backups ou uploads de usuários._
+
+- 💽 **Disco:**  
+  Usado por VMs, aplicativos e outros serviços como armazenamento de blocos.  
+  _Exemplo: disco de sistema operacional de uma máquina virtual._
+
+- 📬 **Fila (Queue):**  
+  Gerenciamento de mensagens assíncronas entre componentes.  
+  _Exemplo: fila de pedidos em um e-commerce._
+
+- 📁 **Arquivos (Files):**  
+  Compartilhamento de arquivos baseado em SMB.  
+  _Exemplo: uso por múltiplos usuários em rede corporativa._
+
+- 🗃️ **Tabelas (Tables):**  
+  Armazenamento NoSQL de chave/atributo para dados estruturados.  
+  _Exemplo: tabela de logs ou registros rápidos._
+
+### 🌍 Pontos de Extremidade
+
+- 🌐 **Formato de endpoint dos serviços:**  
+  `{nomedaconta}.{tipodeserviço}.core.windows.net`  
+  _Exemplo: `minhaempresa.blob.core.windows.net`_
+
+### 🧊 Camadas de Acesso
+
+- 🔁 **Frequente:**  
+  Otimizada para armazenamento de dados acessados com frequência.
+
+- 💤 **Esporádico:**  
+  Otimizada para armazenamento de dados acessados com pouca frequência  
+  e armazenados por pelo menos **30 dias**.
+
+- 🧊 **Frio:**  
+  Otimizado para o armazenamento de dados acessados com pouca frequência  
+  e armazenados por pelo menos **90 dias**.
+
+- 🪦 **Arquivo Morto:**  
+  Otimizada para armazenamento de dados acessados raramente  
+  e armazenados por pelo menos **180 dias**, com requisitos de **latência flexíveis**.
+
+### 🚚 Migração e Ferramentas
+
+- 📦 **Azure Data Box:**  
+  Serviço físico para transferir grandes volumes de dados (até 80 TB).  
+  _Exemplo: migração de datacenter para nuvem._
+
+- 🔧 **AzCopy:**  
+  Utilitário de linha de comando para **cópia unidirecional** de arquivos/blobs.  
+  _Exemplo: copiar arquivos locais para Blob Storage._
+
+- 🧑‍💻 **Gerenciador de Armazenamento do Azure:**  
+  Interface gráfica multiplataforma (Windows, macOS, Linux).  
+  _Internamente utiliza o AzCopy._
+
+- 🔄 **Sincronização de Arquivos do Azure:**  
+  Sincronização **bidirecional** entre nuvem e arquivos locais.  
+  _Mantém localmente os arquivos mais acessados e libera espaço automaticamente._
