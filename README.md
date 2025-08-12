@@ -284,6 +284,10 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
   Armazenamento massivo de dados não estruturados (texto, imagens, vídeos).  
   _Exemplo: armazenar backups ou uploads de usuários._
 
+### ​🧊 **Contêiner**
+Serviços de contêineres no Azure fornecem ambientes leves e isolados para execução de aplicações sem a necessidade de gerenciar um sistema operacional completo.
+_Exemplo: implantação de APIs ou microserviços de forma rápida e escalável._
+
 - 💽 **Disco:**  
   Usado por VMs, aplicativos e outros serviços como armazenamento de blocos.  
   _Exemplo: disco de sistema operacional de uma máquina virtual._
@@ -340,3 +344,22 @@ Esses modelos de serviço oferecem uma ampla gama de opções e benefícios, per
 - 🔄 **Sincronização de Arquivos do Azure:**  
   Sincronização **bidirecional** entre nuvem e arquivos locais.  
   _Mantém localmente os arquivos mais acessados e libera espaço automaticamente._
+
+- ✏️ **Documentação Microsoft sobre o laboratório de Armazenamento na Azure:**
+
+  [Criação de uma Conta de Armazenamento](https://learn.microsoft.com/pt-br/azure/storage/common/storage-account-create?tabs=azure-portal)
+  **Obs.:** _Lembrar que o nome é sempre globalmente único com 3 a 24 caracteres._
+  
+  [Criação de Blobs](https://learn.microsoft.com/pt-br/azure/storage/blobs/storage-quickstart-blobs-portal)
+
+  [Criação de Armazenamento de Contêiners](https://learn.microsoft.com/pt-br/azure/storage/blobs/blob-containers-portal)  
+
+  [Criação de Disco de Armazenamento](https://learn.microsoft.com/pt-br/azure/virtual-machines/windows/tutorial-manage-data-disk)
+
+  [Criação de Armazenamento de Fila](https://learn.microsoft.com/pt-br/azure/storage/queues/storage-tutorial-queues)
+
+  [Criação de Armazenamento de Arquivos](https://learn.microsoft.com/pt-br/azure/storage/files/storage-how-to-create-file-share)
+
+  [Criação de Armazenamento de Tabelas](https://learn.microsoft.com/pt-br/azure/storage/tables/table-storage-quickstart-portal)
+
+  [Migrações para o Azure](https://learn.microsoft.com/pt-br/azure/migrate/?view=migrate-classic)
