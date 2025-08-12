@@ -363,3 +363,37 @@ _Exemplo: implantação de APIs ou microserviços de forma rápida e escalável.
   [Criação de Armazenamento de Tabelas](https://learn.microsoft.com/pt-br/azure/storage/tables/table-storage-quickstart-portal)
 
   [Migrações para o Azure](https://learn.microsoft.com/pt-br/azure/migrate/?view=migrate-classic)
+
+---
+
+## 🔐 Resumo do Curso: Identidade, Acesso e Segurança
+
+### 🆔 Microsoft Entra ID (Azure Active Directory)
+- 🌐 **Gerenciamento de identidades e acesso baseado em nuvem:**  
+  Permite autenticação e autorização para usuários e dispositivos.  
+  _Exemplo: Usuário criado no ambiente local (On-Premises) pode ser sincronizado para a nuvem._
+- 🔑 **Funcionalidades:**  
+  Autenticação SSO, colaboração B2B, gerenciamento de aplicativos e dispositivos.
+
+### 🔍 Autenticação x Autorização
+- **Autenticação:**  
+  Processo de identificação do usuário.  
+  _Exemplo: Inserir login e senha para acessar um sistema._
+- **Autorização:**  
+  Definição de permissões e níveis de acesso.  
+  _Exemplo: Ter permissão para editar arquivos em uma pasta compartilhada._
+
+### 🎯 Acesso Condicional
+- Estratégia de segurança baseada em regras: usuário/grupo, IP, dispositivo, aplicativo ou detecção de risco.
+- _Exemplo: Bloquear login de dispositivos não registrados na rede corporativa._
+
+### 📜 Controle de Acesso Baseado em Função (RBAC)
+- **Granularidade fina:** Permite liberar apenas o necessário para cada usuário.
+- **Herança de permissões:** Permissões atribuídas a um nível hierárquico superior são herdadas pelos recursos abaixo.
+
+### 🚫 Confiança Zero (Zero Trust)
+- Nenhum acesso é permitido por padrão — tudo deve ser explicitamente autorizado.
+
+### 🛡️ Microsoft Defender para Cloud
+- Serviço de monitoramento e proteção contra ameaças no Azure.  
+  _Exemplo: Detectar e alertar sobre atividades suspeitas em máquinas virtuais._
