@@ -397,3 +397,12 @@ _Exemplo: implantação de APIs ou microserviços de forma rápida e escalável.
 ### 🛡️ Microsoft Defender para Cloud
 - Serviço de monitoramento e proteção contra ameaças no Azure.  
   _Exemplo: Detectar e alertar sobre atividades suspeitas em máquinas virtuais._
+
+- ✏️ **Documentação Microsoft sobre o laboratório de Identidade, Acesso e Segurança na Azure:**
+
+  [Microsoft Entra ID](https://learn.microsoft.com/pt-br/entra/fundamentals/whatis)
+  _Contas deletadas só podem ser restauradas em até 30 dias_
+
+  [RBAC do Azure](https://learn.microsoft.com/pt-br/azure/role-based-access-control/overview)
+
+  [Microsoft Defender para Cloud](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/defender-for-cloud-introduction)
