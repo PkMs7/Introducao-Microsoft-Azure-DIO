@@ -406,3 +406,34 @@ _Exemplo: implantação de APIs ou microserviços de forma rápida e escalável.
   [RBAC do Azure](https://learn.microsoft.com/pt-br/azure/role-based-access-control/overview)
 
   [Microsoft Defender para Cloud](https://learn.microsoft.com/pt-br/azure/defender-for-cloud/defender-for-cloud-introduction)
+
+---
+
+## 💰 Resumo do Curso: Gerenciamento de Custos na Azure
+
+### 📊 Fatores que Afetam os Custos
+- 💎 **Tipo de recurso:** Custos variam conforme o serviço contratado.  
+  _Exemplo: Uma VM de alto desempenho custa mais do que uma de uso básico._
+- 🔄 **Consumo:** Modelo de pagamento conforme o uso.  
+  _Exemplo: Pagar apenas pelas horas em que uma VM está ligada._
+- 🛠️ **Manutenção:** Boas práticas como desligar máquinas virtuais quando não usadas ajudam a reduzir custos.
+- 🌍 **Área geográfica:** Preços variam por região.  
+  _Exemplo: Um recurso em "East US" pode ser mais barato do que em "Brazil South"._
+- 🌐 **Tráfego de rede:** Custos adicionais na transferência de dados entre regiões.
+- 📜 **Assinatura:** O tipo de assinatura pode influenciar o valor final.
+
+### 🛒 Azure Marketplace
+Plataforma para encontrar, experimentar, comprar e provisionar aplicativos e serviços de provedores certificados.  
+_Observação: O suporte para soluções de terceiros é prestado pelo próprio fabricante._
+
+### 🧮 Ferramentas de Estimativa e Análise de Custos
+- **Calculadora de Preços:**  
+  Estima o custo de recursos e serviços antes da contratação.
+- **Calculadora de Custo Total (TCO):**  
+  Estima a economia ao migrar para o Azure.
+- **Gerenciamento de Custos:**  
+  Permite criar alertas e previsões para evitar gastos excessivos.
+
+### 🏷️ Tags no Azure
+Metadados aplicados aos recursos para organização lógica e relatórios de cobrança.  
+_Exemplo: Tag “Ambiente=Produção” para diferenciar recursos de produção e homologação._
