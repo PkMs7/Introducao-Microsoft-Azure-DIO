@@ -437,3 +437,13 @@ _Observação: O suporte para soluções de terceiros é prestado pelo próprio 
 ### 🏷️ Tags no Azure
 Metadados aplicados aos recursos para organização lógica e relatórios de cobrança.  
 _Exemplo: Tag “Ambiente=Produção” para diferenciar recursos de produção e homologação._
+
+- ✏️ **Documentação Microsoft sobre o laboratório de Gerenciamento de Custos na Azure:**
+
+  [Caculadora de Custos Total Azure](https://azure.microsoft.com/pt-br/pricing/tco/calculator/)
+
+  [Calculadora de Preços Azure](https://azure.microsoft.com/pt-br/pricing/calculator/)
+
+  [Documentação do Gerenciamento de Custos](https://learn.microsoft.com/pt-br/azure/cost-management-billing/costs/overview-cost-management)
+
+  [Documentação das Tags](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources)
