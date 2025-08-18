@@ -447,3 +447,34 @@ _Exemplo: Tag “Ambiente=Produção” para diferenciar recursos de produção 
   [Documentação do Gerenciamento de Custos](https://learn.microsoft.com/pt-br/azure/cost-management-billing/costs/overview-cost-management)
 
   [Documentação das Tags](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/tag-resources)
+
+---
+
+## 🛡️ Resumo do Curso: Governança e Conformidade na Azure
+
+### 📏 Azure Policy
+Ferramenta que ajuda a **impor padrões organizacionais** e avaliar a conformidade em escala.  
+- Aplica regras que prevalecem sobre **assinaturas, grupos de recursos e recursos individuais**.
+- Garante **governança e consistência** em todo o ambiente.
+
+### ✅ Estados de Conformidade
+- **Non-compliant:** O recurso **não atende** às políticas definidas.  
+- **Remediation:** Processo de **ajustar automaticamente** ou manualmente um recurso para que esteja em conformidade.  
+- **Compliant:** O recurso está **em conformidade** com as regras impostas pela organização.
+
+### 🔒 Bloqueios de Recursos
+Usados para proteger os recursos de **exclusões ou modificações acidentais**.  
+- Bloqueios são **herdados** para todos os recursos abaixo na hierarquia.
+
+| Tipo de Bloqueio | Leitura | Atualização | Exclusão |
+|------------------|---------|-------------|----------|
+| **Excluir**      | ✅ Sim  | ✅ Sim      | ❌ Não   |
+| **ReadOnly**     | ✅ Sim  | ❌ Não      | ❌ Não   |
+
+### 🤝 Portal de Confiança do Serviço
+Central de informações sobre a **segurança, privacidade e conformidade** dos serviços da Microsoft.
+Permite que clientes verifiquem **auditorias independentes** e garantias regulatórias.
+
+### 📊 Microsoft Purview
+Conjunto de soluções de **Governança, Risco e Conformidade de dados**.  
+Ajuda as organizações a **gerenciar, proteger e monitorar dados** em ambientes locais e em nuvem.
