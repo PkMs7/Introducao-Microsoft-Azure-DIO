@@ -478,3 +478,17 @@ Permite que clientes verifiquem **auditorias independentes** e garantias regulat
 ### 📊 Microsoft Purview
 Conjunto de soluções de **Governança, Risco e Conformidade de dados**.  
 Ajuda as organizações a **gerenciar, proteger e monitorar dados** em ambientes locais e em nuvem.
+
+- ✏️ **Documentação Microsoft sobre o laboratório de Governança e Conformidade na Azure:**
+
+  [Portal de Confiança do Serviço](https://servicetrust.microsoft.com/)
+
+  [Portal de Confiança do Serviço (Documentação)](https://learn.microsoft.com/pt-br/purview/get-started-with-service-trust-portal)
+  
+  [Bloquear seus recursos para proteger sua infraestrutura (Resource Locks)](https://learn.microsoft.com/pt-br/azure/azure-resource-manager/management/lock-resources)
+
+  [Microsoft Purview – Governança de dados, risco e conformidade](https://learn.microsoft.com/pt-br/purview/purview)
+
+  [Portal Microsoft Purview](https://learn.microsoft.com/pt-br/purview/purview-portal)
+
+  [Azure Policy](https://learn.microsoft.com/pt-br/azure/governance/policy/overview)
