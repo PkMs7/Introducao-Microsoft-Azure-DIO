@@ -492,3 +492,45 @@ Ajuda as organizações a **gerenciar, proteger e monitorar dados** em ambientes
   [Portal Microsoft Purview](https://learn.microsoft.com/pt-br/purview/purview-portal)
 
   [Azure Policy](https://learn.microsoft.com/pt-br/azure/governance/policy/overview)
+
+---
+
+## 🛡️ Resumo do Curso: Ferramentas de Gerenciamento e Implantação na Azure
+
+### 🔧 Ferramentas Utilizadas
+- **Portal do Azure:** Interface gráfica baseada na web para criar, configurar e gerenciar recursos.  
+- **Azure PowerShell:** Conjunto de cmdlets que permite automatizar tarefas de gerenciamento.  
+- **Azure CLI:** Ferramenta de linha de comando multiplataforma para gerenciamento de recursos.  
+- **Azure Cloud Shell:** Terminal interativo baseado em navegador que já inclui PowerShell e CLI.  
+- **Azure Arc:** Extensão do Azure para gerenciar recursos em ambientes locais e multicloud.  
+- **Azure Resource Manager (ARM):** Camada de gerenciamento do Azure que organiza, monitora e controla recursos.
+
+### 🌐 Azure Arc
+Permite **gerenciar recursos que não estão no Azure** (on-premises ou em outras nuvens) como se estivessem dentro do próprio ecossistema da Microsoft.  
+_Exemplo: Aplicar políticas do Azure em servidores físicos ou clusters Kubernetes em outra nuvem._
+
+### 🗂️ Azure Resource Manager (ARM)
+É a camada de gerenciamento do Azure que fornece **controle, organização e governança centralizada** dos recursos.  
+- Trabalha com grupos de recursos.  
+- Suporta controle de acesso baseado em funções (RBAC).  
+- Permite aplicar políticas, tags e auditoria em escala.
+
+### 📑 Modelos do ARM
+São **arquivos JSON declarativos** que descrevem a infraestrutura do Azure, permitindo criar ambientes completos de forma automatizada.  
+- **Sintaxe declarativa:** Define “o que” deve ser criado, e não “como”.  
+- **Resultados repetíveis:** Permite recriar a mesma infraestrutura em diferentes ambientes.  
+- **Orquestração:** O ARM entende dependências e cria os recursos na ordem correta.  
+- **Arquivos modulares:** Facilita a reutilização de partes da infraestrutura.  
+- **Validação integrada:** Verifica erros antes da criação dos recursos.  
+- **Código exportável:** Recursos já existentes podem ser exportados para um template ARM.  
+
+### 🏗️ Infraestrutura como Código (IaC)
+Permite **padronizar e gerenciar a infraestrutura em escala**, garantindo consistência e reduzindo erros.  
+_Exemplo: Criar a mesma rede virtual com sub-redes idênticas em vários ambientes (dev, homologação e produção)._  
+
+### 📘 Azure Bicep
+Linguagem de domínio específico (DSL) criada pela Microsoft para simplificar a escrita de templates ARM.  
+- Mais simples e legível que JSON.  
+- Compila para ARM templates.  
+- Facilita modularização e reaproveitamento de código.  
+_Exemplo: Criar uma VM com poucas linhas de código em Bicep em vez de escrever JSON extenso._
