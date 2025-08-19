@@ -534,3 +534,17 @@ Linguagem de domínio específico (DSL) criada pela Microsoft para simplificar a
 - Compila para ARM templates.  
 - Facilita modularização e reaproveitamento de código.  
 _Exemplo: Criar uma VM com poucas linhas de código em Bicep em vez de escrever JSON extenso._
+
+- ✏️ **Documentação Microsoft sobre o laboratório de Ferramentas de Gerenciamento e Implantação na Azure:**
+
+  [Azure PowerShell](https://learn.microsoft.com/pt-br/powershell/azure/what-is-azure-powershell?view=azps-14.3.0)
+
+  [Azure CLI](https://learn.microsoft.com/pt-br/cli/azure/what-is-azure-cli?view=azure-cli-latest)
+
+  [Azure Cloud Shell](https://learn.microsoft.com/pt-br/azure/cloud-shell/overview)
+
+  [Azure Arc](https://learn.microsoft.com/pt-br/azure/azure-arc/overview)
+
+  [Azure Resource Manager (ARM)](https://learn.microsoft.com/pt-br/azure/azure-resource-manager/templates/overview)
+
+  [Azure Bicep](https://learn.microsoft.com/pt-br/azure/azure-resource-manager/bicep/overview?tabs=bicep)
