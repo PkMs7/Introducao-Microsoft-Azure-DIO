@@ -586,3 +586,11 @@ Principais funcionalidades:
 - 🧾 **Resource Health:** Estado em tempo real de recursos individuais (ex.: VMs, bancos de dados).  
 
 Permite configurar alertas para **respostas rápidas** a incidentes e minimizar impactos nos negócios.
+
+- ✏️ **Documentação Microsoft sobre o laboratório de Ferramentas de Monitoramento na Azure:**
+
+  [Assistente do Azure](https://learn.microsoft.com/pt-br/azure/advisor/advisor-overview)
+
+  [Azure Monitor](https://learn.microsoft.com/pt-br/azure/azure-monitor/fundamentals/overview)
+
+  [Integridade do Serviço Azure](https://learn.microsoft.com/pt-br/azure/service-health/)
