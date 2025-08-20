@@ -548,3 +548,41 @@ _Exemplo: Criar uma VM com poucas linhas de código em Bicep em vez de escrever 
   [Azure Resource Manager (ARM)](https://learn.microsoft.com/pt-br/azure/azure-resource-manager/templates/overview)
 
   [Azure Bicep](https://learn.microsoft.com/pt-br/azure/azure-resource-manager/bicep/overview?tabs=bicep)
+
+---
+
+## 📊 Resumo do Curso: Ferramentas de Monitoramento na Azure
+
+### 🤖 Assistente do Azure
+Ferramenta que analisa os recursos implantados e fornece recomendações com base em **boas práticas** para otimizar implantações.  
+As recomendações são divididas em cinco pilares:  
+- 🔒 **Confiabilidade**  
+- 🛡️ **Segurança**  
+- ⚡ **Desempenho**  
+- 💰 **Custo**  
+- 📈 **Excelência Operacional**
+
+### 🌐 Integridade do Serviço do Azure
+Coleção de serviços que mantém o usuário informado sobre:  
+- Status **geral** do Azure  
+- Status de **serviços que podem afetar** o usuário  
+- Status de **recursos específicos**  
+
+Ajuda a identificar incidentes e a acompanhar comunicações oficiais sobre interrupções.
+
+### 📡 Azure Monitor
+Solução completa para **coletar, analisar e agir** sobre dados de telemetria de seus ambientes na nuvem e locais.  
+Permite:  
+- Monitorar a **disponibilidade** e o **desempenho** de aplicações  
+- Criar **dashboards personalizados**  
+- Configurar **alertas proativos**  
+- Integrar com outras ferramentas de análise e automação
+
+### ❤️ Azure Health
+Serviço que fornece informações **personalizadas** sobre a integridade dos recursos e serviços do Azure utilizados pelo cliente.  
+Principais funcionalidades:  
+- 📢 **Service Health:** Notificações sobre incidentes em andamento e manutenção planejada.  
+- 📄 **Health Advisories:** Informações sobre mudanças de produto e práticas recomendadas.  
+- 🧾 **Resource Health:** Estado em tempo real de recursos individuais (ex.: VMs, bancos de dados).  
+
+Permite configurar alertas para **respostas rápidas** a incidentes e minimizar impactos nos negócios.
